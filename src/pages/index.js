@@ -11,7 +11,7 @@ const IndexPage = () => {
         alt="Clifford, a reddish-brown pitbull, dozing in a bean bag chair"
         src="../images/icon.png"
       />
-      <Link to="./proba">Proba</Link>
+      <Link to="../papka/proba">Proba</Link>
     </Layout>
   )
 }
