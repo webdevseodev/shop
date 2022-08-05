@@ -27,12 +27,12 @@ const AboutPage = () => {
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
+            <Link to="../categories/after_death" className={navLinkText}>
             Теологичесские опубликованные посмертно
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
+            <Link to="../categories/first_works" className={navLinkText}>
             Дотеологичесские работы 
             </Link>
           </li>

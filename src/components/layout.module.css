@@ -4,25 +4,33 @@ flex-direction: column;
 flex-wrap: wrap;
 justify-content: space-between;
   margin: auto;
-  max-width: 1200px;
+   max-width: 888px; 
   font-family: sans-serif;
 }
 .navbar {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: space-around;
+justify-items: center;
 }
 .heading {
   color: rebeccapurple;
+  text-align: center;
+  font-size:2em;
+}
+.heading1 {
+  color: rgb(95, 103, 145);
+  text-align: center;
+  font-size:22px;
 }
 .nav-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 flex-wrap: wrap;
   list-style: none;
-  padding-left: 0;
+
 }
 .nav-link-item {
   border-radius: 1rem;
@@ -38,3 +46,7 @@ margin: 1rem;
   color: black;
   font-size: 16px;
 }
+
+
+
+
