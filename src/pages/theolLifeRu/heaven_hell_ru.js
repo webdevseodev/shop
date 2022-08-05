@@ -25,7 +25,7 @@ const Life = () => {
           </li>
          
           <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
+            <Link to="/categories/life" className={navLinkText}>
           Назад
             </Link>
           </li>
@@ -35,8 +35,8 @@ const Life = () => {
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/theolLifeRu/heaven_hell_ru" className={navLinkText}>
-              О Рае и аде
+            <Link to="/" className={navLinkText}>
+              Home
             </Link>
           </li>
 
