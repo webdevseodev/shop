@@ -45,6 +45,11 @@ const Life = () => {
               Home
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/theolLifeRu/hh_ager-ru" className={navLinkText}>
+              О Рае и аде ( Ager (перевод с английского))
+            </Link>
+          </li>
 
 
          
