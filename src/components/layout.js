@@ -25,11 +25,7 @@ const Layout = ({ pageTitle, children }) => {
              Русский язык
             </Link>
           </li>
-          <li className={navLinkItem}>
-            <Link to="../papka/proba" className={navLinkText}>
-           Proba
-            </Link>
-          </li>
+         
         </ul>
       </nav>
       <main>

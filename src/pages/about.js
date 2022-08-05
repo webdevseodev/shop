@@ -1,10 +1,48 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import { Link } from 'gatsby'
+import {
+
+  navbar,
+
+  navLinks,
+  navLinkItem,
+  navLinkText
+} from '../components/layout.module.css'
+
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
-      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+    <Layout pageTitle="Категории">
+      <nav className={navbar}>
+        <ul className={navLinks}>
+          <li className={navLinkItem}>
+            <Link to="/" className={navLinkText}>
+             На главную страницу
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="../categories/life" className={navLinkText}>
+            Теологичесские опубликованные при жизни
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/about" className={navLinkText}>
+            Теологичесские опубликованные посмертно
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/about" className={navLinkText}>
+            Дотеологичесские работы 
+            </Link>
+          </li>
+          {/* <li className={navLinkItem}>
+            <Link to="../papka/proba" className={navLinkText}>
+           Proba
+            </Link>
+          </li> */}
+        </ul>
+      </nav>
     </Layout>
   )
 }
