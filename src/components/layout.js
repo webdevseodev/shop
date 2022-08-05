@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import {
   container,
+  navbar,
   heading,
   navLinks,
   navLinkItem,
@@ -12,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <title>{pageTitle}</title>
-      <nav>
+      <nav className={navbar}>
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
