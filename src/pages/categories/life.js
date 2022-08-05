@@ -23,6 +23,12 @@ const Life = () => {
             На главную страницу
             </Link>
           </li>
+
+          <li className={navLinkItem}>
+            <Link to="/about" className={navLinkText}>
+   Категории
+            </Link>
+          </li>
          
           <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
