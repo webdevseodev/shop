@@ -13,9 +13,9 @@ import {
 
 const Life = () => {
   return (
-    <Layout pageTitle="Теологичесские опубликованные при жизни">
+    <Layout pageTitle="О Рае и аде">
      
-      <h1 className={heading1}><p></p> </h1>
+      <h1 className={heading1}><p>Разные переводы книг и оригинал</p> </h1>
       <nav className={navbar}>
         <ul className={navLinks}>
           <li className={navLinkItem}>
