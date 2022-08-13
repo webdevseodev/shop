@@ -50,9 +50,18 @@ margin: 1rem;
 
 .shopprofilemenusection {
 
-  background-color:aquamarine;
+  list-style-type: none;
 }
 
+.shopprofilemenulistitem {
+margin: 2rem;
+  background-color:beige;
+  list-style-type: none;
+  padding: 2em;
+  border-radius: 4em;
+}
 
+.shopprofilemenulistitemimg {
 
-
+  border-radius: 4em;
+}

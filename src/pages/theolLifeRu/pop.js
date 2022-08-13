@@ -2,6 +2,8 @@ import * as React from 'react'
 import Layout from '../../components/layout'
 import {
     shopprofilemenusection,
+    shopprofilemenulistitem,
+    shopprofilemenulistitemimg,
     navbar,
     heading1,
     navLinks,
@@ -70,12 +72,12 @@ const AgerRu = () => {
 </nav>
 <h1 className={heading1}><p>Καταλογος</p> </h1>
 
-<StaticImage
+{/* <StaticImage
         alt=""
         src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-strudel-me-gemisi-milo-kai-kanela-125gr?c=1639581277"
         layout="fullWidth"
         
-      />
+      /> */}
 
 <div className="px-5 py-8 px-md-9 bg-white box-shadow rounded">
   <div id="menu-list-content">
@@ -87,7 +89,7 @@ const AgerRu = () => {
       data-has-only-offers="true"
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black "
         href="#prosforesCollapse"
         role="button"
         aria-expanded="false"
@@ -214,7 +216,7 @@ const AgerRu = () => {
         id="dimofilesteraCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000049"
           data-item-name="Σπανακοτυρόπιτα"
           data-item-price="1,6"
@@ -237,7 +239,7 @@ const AgerRu = () => {
                 alt="Σπανακοτυρόπιτα"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000049?c=89e9b911b2f879aa3555d4c333e9e442"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -248,7 +250,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000063"
           data-item-name="Μπαγκέτα λευκή ζαμπόν & gouda"
           data-item-price="2,5"
@@ -274,7 +276,7 @@ const AgerRu = () => {
                 alt="Μπαγκέτα λευκή ζαμπόν & gouda"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000063?c=f2ee425351b81068cb6eaefb140655d5"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -285,7 +287,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000010"
           data-item-name="Freddo espresso"
           data-item-price="1,6"
@@ -308,7 +310,7 @@ const AgerRu = () => {
                 alt="Freddo espresso"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000010?c=2723aa02d7d93cf1993d35048fb99211"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -319,7 +321,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000008"
           data-item-name="Cappuccino"
           data-item-price="1,6"
@@ -342,7 +344,7 @@ const AgerRu = () => {
                 alt="Cappuccino"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000008?c=c88c3554be687200dd2f6c02ec87bc09"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -353,7 +355,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000103"
           data-item-name="Πίτσα large"
           data-item-price="2,2"
@@ -379,7 +381,7 @@ const AgerRu = () => {
                 alt="Πίτσα large"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000103?c=48ab6bebc8b0bc93e6838986c8df8145"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -390,7 +392,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000011"
           data-item-name="Freddo cappuccino"
           data-item-price="1,6"
@@ -413,7 +415,7 @@ const AgerRu = () => {
                 alt="Freddo cappuccino"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000011?c=8df66c55f4df0d8b195ab97d4abf3e8f"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -424,7 +426,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000054"
           data-item-name="Γραβιερόπιτα"
           data-item-price="1,8"
@@ -447,7 +449,7 @@ const AgerRu = () => {
                 alt="Γραβιερόπιτα"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000054?c=25b61bee63aa168551d4c86e3515e7d5"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -458,7 +460,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000056"
           data-item-name="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & πάστα ελιάς"
           data-item-price="1,2"
@@ -481,7 +483,7 @@ const AgerRu = () => {
                 alt="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & πάστα ελιάς"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000056?c=3acd4e6954df949665f1bd76dfb5b1b4"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -492,7 +494,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000057"
           data-item-name="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & γαλοπούλα"
           data-item-price="1,2"
@@ -515,7 +517,7 @@ const AgerRu = () => {
                 alt="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & γαλοπούλα"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000057?c=55f8609a56cfa8fd0e8ab948c477ac6e"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -549,7 +551,7 @@ const AgerRu = () => {
         id="kafedesCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000001"
           data-item-name="Espresso"
           data-item-price={1}
@@ -572,7 +574,7 @@ const AgerRu = () => {
                 alt="Espresso"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:espresso?c=1657203860"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -583,7 +585,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000012"
           data-item-name="Espresso lungo"
           data-item-price="1,2"
@@ -604,7 +606,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000013"
           data-item-name="Espresso americano"
           data-item-price="1,2"
@@ -625,7 +627,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000010"
           data-item-name="Freddo espresso"
           data-item-price="1,6"
@@ -648,7 +650,7 @@ const AgerRu = () => {
                 alt="Freddo espresso"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded ls-is-cached lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000010?c=2723aa02d7d93cf1993d35048fb99211"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -659,7 +661,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000008"
           data-item-name="Cappuccino"
           data-item-price="1,6"
@@ -682,7 +684,7 @@ const AgerRu = () => {
                 alt="Cappuccino"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded ls-is-cached lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000008?c=c88c3554be687200dd2f6c02ec87bc09"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -693,7 +695,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000009"
           data-item-name="Cappuccino latte"
           data-item-price="1,6"
@@ -714,7 +716,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000011"
           data-item-name="Freddo cappuccino"
           data-item-price="1,6"
@@ -737,7 +739,7 @@ const AgerRu = () => {
                 alt="Freddo cappuccino"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded ls-is-cached lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000011?c=8df66c55f4df0d8b195ab97d4abf3e8f"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -748,7 +750,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000006"
           data-item-name="Nes"
           data-item-price="1,5"
@@ -769,7 +771,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000007"
           data-item-name="Frappe"
           data-item-price="1,5"
@@ -790,7 +792,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000014"
           data-item-name="Φίλτρου"
           data-item-price="1,5"
@@ -813,7 +815,7 @@ const AgerRu = () => {
                 alt="Φίλτρου"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:philtrou?c=1654524569"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -824,7 +826,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000005"
           data-item-name="Ελληνικός"
           data-item-price={1}
@@ -847,7 +849,7 @@ const AgerRu = () => {
                 alt="Ελληνικός"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:ellinikos?c=1657203862"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -881,7 +883,7 @@ const AgerRu = () => {
         id="rofimataCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000002"
           data-item-name="Σοκολάτα"
           data-item-price={2}
@@ -904,7 +906,7 @@ const AgerRu = () => {
                 alt="Σοκολάτα"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:sokolata?c=1659688441"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -915,7 +917,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000030"
           data-item-name="Freddito"
           data-item-price="3,5"
@@ -936,7 +938,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000048"
           data-item-name="Φυσικός χυμός ανάμεικτος"
           data-item-price={2}
@@ -962,7 +964,7 @@ const AgerRu = () => {
                 alt="Φυσικός χυμός ανάμεικτος"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:phusikos-xumos-anameiktos?c=1645004279"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -996,7 +998,7 @@ const AgerRu = () => {
         id="tsai-iced-teaCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000041"
           data-item-name="Τσάι λεμόνι"
           data-item-price={1}
@@ -1022,7 +1024,7 @@ const AgerRu = () => {
                 alt="Τσάι λεμόνι"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-lemoni?c=1659688468"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1033,7 +1035,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000042"
           data-item-name="Τσάι φράουλα"
           data-item-price={1}
@@ -1059,7 +1061,7 @@ const AgerRu = () => {
                 alt="Τσάι φράουλα"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-phraoula?c=1659688468"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1070,7 +1072,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000043"
           data-item-name="Τσάι καραμέλα"
           data-item-price={1}
@@ -1096,7 +1098,7 @@ const AgerRu = () => {
                 alt="Τσάι καραμέλα"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-karamela?c=1657203871"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1107,7 +1109,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000044"
           data-item-name="Τσάι πράσινο"
           data-item-price={1}
@@ -1133,7 +1135,7 @@ const AgerRu = () => {
                 alt="Τσάι πράσινο"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-prasino?c=1659688469"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1144,7 +1146,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000045"
           data-item-name="Τσάι βανίλια"
           data-item-price={1}
@@ -1170,7 +1172,7 @@ const AgerRu = () => {
                 alt="Τσάι βανίλια"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-banilia?c=1659688468"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1181,7 +1183,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000046"
           data-item-name="Τσάι English breakfast"
           data-item-price={1}
@@ -1207,7 +1209,7 @@ const AgerRu = () => {
                 alt="Τσάι English breakfast"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-english-breakfast?c=1657203871"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1218,7 +1220,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000047"
           data-item-name="Iced tea βατόμουρο με stevia"
           data-item-price="1,5"
@@ -1264,7 +1266,7 @@ const AgerRu = () => {
         id="milkshakes-granitesCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000033"
           data-item-name="Milkshake σοκολάτα"
           data-item-price="3,5"
@@ -1285,7 +1287,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000035"
           data-item-name="Milkshake βανίλια"
           data-item-price="3,5"
@@ -1306,7 +1308,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000034"
           data-item-name="Milkshake φράουλα"
           data-item-price="3,5"
@@ -1327,7 +1329,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000036"
           data-item-name="Γρανίτα λεμόνι"
           data-item-price={2}
@@ -1351,7 +1353,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000037"
           data-item-name="Γρανίτα λεμόνι & φράουλα"
           data-item-price={2}
@@ -1375,7 +1377,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000038"
           data-item-name="Γρανίτα ανανάς, mango & αγαύη"
           data-item-price={2}
@@ -1399,7 +1401,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000039"
           data-item-name="Γρανίτα μοσχολέμονο & αγαύη"
           data-item-price={2}
@@ -1423,7 +1425,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000040"
           data-item-name="Γρανίτα πράσινο μήλο & ρόδι"
           data-item-price={2}
@@ -1470,7 +1472,7 @@ const AgerRu = () => {
         id="sfoliatesCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000049"
           data-item-name="Σπανακοτυρόπιτα"
           data-item-price="1,6"
@@ -1493,7 +1495,7 @@ const AgerRu = () => {
                 alt="Σπανακοτυρόπιτα"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded ls-is-cached lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000049?c=89e9b911b2f879aa3555d4c333e9e442"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1504,7 +1506,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000050"
           data-item-name="Τυρόπιτα βουτύρου"
           data-item-price={1}
@@ -1525,7 +1527,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000051"
           data-item-name="Λουκανικόπιτα"
           data-item-price="1,5"
@@ -1546,7 +1548,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000052"
           data-item-name="Κρουασάν ζαμπόν & τυρί κρέμα"
           data-item-price={2}
@@ -1567,7 +1569,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000103"
           data-item-name="Πίτσα large"
           data-item-price="2,2"
@@ -1593,7 +1595,7 @@ const AgerRu = () => {
                 alt="Πίτσα large"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded ls-is-cached lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000103?c=48ab6bebc8b0bc93e6838986c8df8145"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1604,7 +1606,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000104"
           data-item-name="Πεϊνιρλί"
           data-item-price="2,2"
@@ -1628,7 +1630,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000054"
           data-item-name="Γραβιερόπιτα"
           data-item-price="1,8"
@@ -1651,7 +1653,7 @@ const AgerRu = () => {
                 alt="Γραβιερόπιτα"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded ls-is-cached lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000054?c=25b61bee63aa168551d4c86e3515e7d5"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1662,7 +1664,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000055"
           data-item-name="Κουλούρι Θεσσαλονίκης"
           data-item-price="0,6"
@@ -1685,7 +1687,7 @@ const AgerRu = () => {
                 alt="Κουλούρι Θεσσαλονίκης"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:koulouri-thessalonikis?c=1649870447"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1696,7 +1698,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000056"
           data-item-name="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & πάστα ελιάς"
           data-item-price="1,2"
@@ -1719,7 +1721,7 @@ const AgerRu = () => {
                 alt="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & πάστα ελιάς"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded ls-is-cached lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000056?c=3acd4e6954df949665f1bd76dfb5b1b4"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1730,7 +1732,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000057"
           data-item-name="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & γαλοπούλα"
           data-item-price="1,2"
@@ -1753,7 +1755,7 @@ const AgerRu = () => {
                 alt="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & γαλοπούλα"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded ls-is-cached lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000057?c=55f8609a56cfa8fd0e8ab948c477ac6e"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1764,7 +1766,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000058"
           data-item-name="Μπουγάτσα κρέμα"
           data-item-price={3}
@@ -1785,7 +1787,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000059"
           data-item-name="Κρουασάν βουτύρου"
           data-item-price={1}
@@ -1808,7 +1810,7 @@ const AgerRu = () => {
                 alt="Κρουασάν βουτύρου"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:krouasan-bouturou?c=1659688395"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1819,7 +1821,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000060"
           data-item-name="Κρουασάν σοκολάτα"
           data-item-price="1,6"
@@ -1840,7 +1842,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000105"
           data-item-name="Φύλλο σφολιάτας με Philadelphia & μπέικον"
           data-item-price="2,4"
@@ -1884,7 +1886,7 @@ const AgerRu = () => {
         id="tost-sandwichesCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000061"
           data-item-name="Τοστ ζαμπόν & gouda"
           data-item-price="1,5"
@@ -1908,7 +1910,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000062"
           data-item-name="Τοστ γαλοπούλα & gouda"
           data-item-price="1,5"
@@ -1932,7 +1934,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000063"
           data-item-name="Μπαγκέτα λευκή ζαμπόν & gouda"
           data-item-price="2,5"
@@ -1958,7 +1960,7 @@ const AgerRu = () => {
                 alt="Μπαγκέτα λευκή ζαμπόν & gouda"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded ls-is-cached lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000063?c=f2ee425351b81068cb6eaefb140655d5"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -1969,7 +1971,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000064"
           data-item-name="Μπαγκέτα λευκή γαλοπούλα & gouda"
           data-item-price="2,5"
@@ -1993,7 +1995,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000107"
           data-item-name="Ζάγκας food group chicken club"
           data-item-price="2,5"
@@ -2017,7 +2019,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000108"
           data-item-name="Ζάγκας food group ψωμί του τοστ ολικής άλεσης γαλοπούλα, gouda, αγροτική σως"
           data-item-price="2,5"
@@ -2067,7 +2069,7 @@ const AgerRu = () => {
         id="oikogeneia-stergioyCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000065"
           data-item-name="Στεργίου κρουασάν με γέμιση πραλίνα φουντουκιού 105gr"
           data-item-price={1}
@@ -2090,7 +2092,7 @@ const AgerRu = () => {
                 alt="Στεργίου κρουασάν με γέμιση πραλίνα φουντουκιού 105gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-krouasan-me-gemisi-pralina-phountoukiou-105gr?c=1639581261"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2101,7 +2103,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000066"
           data-item-name="Στεργίου βιεννέζικο με γέμιση κρέμα σοκολάτας 120gr"
           data-item-price={1}
@@ -2124,7 +2126,7 @@ const AgerRu = () => {
                 alt="Στεργίου βιεννέζικο με γέμιση κρέμα σοκολάτας 120gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-bienneziko-me-gemisi-krema-sokolatas-120gr?c=1639581255"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2135,7 +2137,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000067"
           data-item-name="Στεργίου strudel με γέμιση μήλο & κανέλα 125gr"
           data-item-price={1}
@@ -2158,7 +2160,7 @@ const AgerRu = () => {
                 alt="Στεργίου strudel με γέμιση μήλο & κανέλα 125gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-strudel-me-gemisi-milo-kai-kanela-125gr?c=1639581277"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2169,7 +2171,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000068"
           data-item-name="Στεργίου mini τσουρέκι με μαστίχα Χίου 90gr"
           data-item-price={1}
@@ -2192,7 +2194,7 @@ const AgerRu = () => {
                 alt="Στεργίου mini τσουρέκι με μαστίχα Χίου 90gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-mini-tsoureki-me-mastixa-xiou-90gr?c=1639581272"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2203,7 +2205,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000069"
           data-item-name="Στεργίου mini τσουρέκι με γέμιση πραλίνα φουντουκιού 90gr"
           data-item-price={1}
@@ -2226,7 +2228,7 @@ const AgerRu = () => {
                 alt="Στεργίου mini τσουρέκι με γέμιση πραλίνα φουντουκιού 90gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-mini-tsoureki-me-gemisi-pralina-phountoukiou-90gr?c=1639581274"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2237,7 +2239,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000070"
           data-item-name="Στεργίου μηλόπιτα 105gr"
           data-item-price={1}
@@ -2260,7 +2262,7 @@ const AgerRu = () => {
                 alt="Στεργίου μηλόπιτα 105gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-milopita-105gr?c=1639581264"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2271,7 +2273,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000071"
           data-item-name="Στεργίου λεμονόπιτα 105gr"
           data-item-price={1}
@@ -2294,7 +2296,7 @@ const AgerRu = () => {
                 alt="Στεργίου λεμονόπιτα 105gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-lemonopita-105gr?c=1639581259"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2305,7 +2307,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000072"
           data-item-name="Στεργίου soft cookie με κομμάτια σοκολάτας υγείας 100gr"
           data-item-price={1}
@@ -2328,7 +2330,7 @@ const AgerRu = () => {
                 alt="Στεργίου soft cookie με κομμάτια σοκολάτας υγείας 100gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-soft-cookie-me-kommatia-sokolatas-ugeias-100gr?c=1639581285"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2339,7 +2341,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000073"
           data-item-name="Στεργίου muffin σοκολάτας με γέμιση πραλίνα φουντουκιού 120gr"
           data-item-price={1}
@@ -2362,7 +2364,7 @@ const AgerRu = () => {
                 alt="Στεργίου muffin σοκολάτας με γέμιση πραλίνα φουντουκιού 120gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-muffin-sokolatas-me-gemisi-pralina-phountoukiou-120gr?c=1639581290"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2373,7 +2375,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000074"
           data-item-name="Στεργίου muffin βουτύρου με γέμιση salted caramel 120gr"
           data-item-price={1}
@@ -2396,7 +2398,7 @@ const AgerRu = () => {
                 alt="Στεργίου muffin βουτύρου με γέμιση salted caramel 120gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-muffin-bouturou-me-gemisi-salted-caramel-120gr?c=1639581292"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2407,7 +2409,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000075"
           data-item-name="Στεργίου cake ανάμεικτο 80gr"
           data-item-price={1}
@@ -2431,7 +2433,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000076"
           data-item-name="Στεργίου cake πορτοκάλι ατομικό 80gr"
           data-item-price={1}
@@ -2457,7 +2459,7 @@ const AgerRu = () => {
                 alt="Στεργίου cake πορτοκάλι ατομικό 80gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-cake-portokali-atomiko-80gr?c=1639581284"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2468,7 +2470,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000078"
           data-item-name="Στεργίου κριτσίνια με καρότο Vegan 90gr"
           data-item-price={1}
@@ -2491,7 +2493,7 @@ const AgerRu = () => {
                 alt="Στεργίου κριτσίνια με καρότο Vegan 90gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-kritsinia-me-karoto-vegan-90gr?c=1639581256"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2502,7 +2504,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000079"
           data-item-name="Στεργίου κριτσίνια πολύσπορα 90gr"
           data-item-price={1}
@@ -2525,7 +2527,7 @@ const AgerRu = () => {
                 alt="Στεργίου κριτσίνια πολύσπορα 90gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-kritsinia-poluspora-90gr?c=1639581258"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2536,7 +2538,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000080"
           data-item-name="Στεργίου κριτσίνια με σουσάμι Vegan 180gr"
           data-item-price="1,7"
@@ -2559,7 +2561,7 @@ const AgerRu = () => {
                 alt="Στεργίου κριτσίνια με σουσάμι Vegan 180gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-kritsinia-me-sousami-vegan-180gr?c=1639581294"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2570,7 +2572,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000081"
           data-item-name="Στεργίου κριτσίνια με ηλιόσπορο Vegan 180gr"
           data-item-price="1,7"
@@ -2593,7 +2595,7 @@ const AgerRu = () => {
                 alt="Στεργίου κριτσίνια με ηλιόσπορο Vegan 180gr"
                 width={448}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-kritsinia-me-iliosporo-vegan-180gr?c=1639581293"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2627,7 +2629,7 @@ const AgerRu = () => {
         id="salatesCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000082"
           data-item-name="Ντάκος"
           data-item-price={4}
@@ -2652,7 +2654,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000083"
           data-item-name="Πράσινη"
           data-item-price={4}
@@ -2677,7 +2679,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000084"
           data-item-name="Φρουτοσαλάτα"
           data-item-price="3,5"
@@ -2724,7 +2726,7 @@ const AgerRu = () => {
         id="zymarikaCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000085"
           data-item-name="Spaghetti napolitana"
           data-item-price="3,5"
@@ -2748,7 +2750,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000086"
           data-item-name="Spaghetti bolognese"
           data-item-price="3,5"
@@ -2796,7 +2798,7 @@ const AgerRu = () => {
         id="glykaCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000106"
           data-item-name="Ζάγκας food group προφιτερόλ 180gr"
           data-item-price="2,5"
@@ -2817,7 +2819,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000109"
           data-item-name="Ζάγκας food group mille feuille 180gr"
           data-item-price="2,5"
@@ -2838,7 +2840,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000110"
           data-item-name="Ζάγκας food group Bueno 180gr"
           data-item-price="2,5"
@@ -2859,7 +2861,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000112"
           data-item-name="Ζάγκας food group Black forest 180gr"
           data-item-price="2,5"
@@ -2880,7 +2882,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000111"
           data-item-name="Ζάγκας food group cheesecake 180gr"
           data-item-price="2,5"
@@ -2901,7 +2903,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000113"
           data-item-name="Ζάγκας food group σοκολατόπιτα 140gr"
           data-item-price="2,5"
@@ -2945,7 +2947,7 @@ const AgerRu = () => {
         id="anapsyktikaCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000017"
           data-item-name="Coca-Cola 330ml"
           data-item-price={1}
@@ -2968,7 +2970,7 @@ const AgerRu = () => {
                 alt="Coca-Cola 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/coca-cola-330ml?c=1649881596"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -2979,7 +2981,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000018"
           data-item-name="Coca-Cola zero 330ml"
           data-item-price={1}
@@ -3002,7 +3004,7 @@ const AgerRu = () => {
                 alt="Coca-Cola zero 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/coca-cola-zero-330ml?c=1649881604"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3013,7 +3015,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000019"
           data-item-name="Fanta κόκκινη 330ml"
           data-item-price={1}
@@ -3036,7 +3038,7 @@ const AgerRu = () => {
                 alt="Fanta κόκκινη 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000019?c=51e8735c7912636e7f22b3485878d5f6"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3047,7 +3049,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000020"
           data-item-name="Fanta μπλε 330ml"
           data-item-price={1}
@@ -3070,7 +3072,7 @@ const AgerRu = () => {
                 alt="Fanta μπλε 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/fanta-mple-330ml?c=1659605975"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3081,7 +3083,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000021"
           data-item-name="Sprite 330ml"
           data-item-price={1}
@@ -3104,7 +3106,7 @@ const AgerRu = () => {
                 alt="Sprite 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/sprite-330ml?c=1649884002"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3115,7 +3117,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000031"
           data-item-name="Amita πορτοκάλι 330ml"
           data-item-price={1}
@@ -3138,7 +3140,7 @@ const AgerRu = () => {
                 alt="Amita πορτοκάλι 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/amita-portokali-330ml?c=-62135596800"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3149,7 +3151,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000032"
           data-item-name="Amita Motion 330ml"
           data-item-price="1,5"
@@ -3172,7 +3174,7 @@ const AgerRu = () => {
                 alt="Amita Motion 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/amita-motion-330ml?c=-62135596800"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3183,7 +3185,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000026"
           data-item-name="Lipton ice tea λεμόνι 330ml"
           data-item-price="1,5"
@@ -3206,7 +3208,7 @@ const AgerRu = () => {
                 alt="Lipton ice tea λεμόνι 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:lipton-ice-tea-lemoni-330ml?c=1649671534"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3217,7 +3219,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000027"
           data-item-name="Lipton ice tea ροδάκινο 330ml"
           data-item-price="1,5"
@@ -3240,7 +3242,7 @@ const AgerRu = () => {
                 alt="Lipton ice tea ροδάκινο 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:lipton-ice-tea-rodakino-330ml?c=1649671537"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3251,7 +3253,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000028"
           data-item-name="Νερό 500ml"
           data-item-price="0,5"
@@ -3274,7 +3276,7 @@ const AgerRu = () => {
                 alt="Νερό 500ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/nero-500ml?c=1639581306"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3285,7 +3287,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000029"
           data-item-name="Νερό 1lt"
           data-item-price={1}
@@ -3308,7 +3310,7 @@ const AgerRu = () => {
                 alt="Νερό 1lt"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/nero-1lt?c=1639581307"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3342,7 +3344,7 @@ const AgerRu = () => {
         id="mpyresCollapse"
       >
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000022"
           data-item-name="Άλφα 330ml"
           data-item-price="1,5"
@@ -3365,7 +3367,7 @@ const AgerRu = () => {
                 alt="Άλφα 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/alpha-330ml?c=1659618427"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3376,7 +3378,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000023"
           data-item-name="Amstel 330ml"
           data-item-price="1,5"
@@ -3399,7 +3401,7 @@ const AgerRu = () => {
                 alt="Amstel 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/amstel-330ml?c=1655734078"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3410,7 +3412,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000024"
           data-item-name="Heineken 330ml"
           data-item-price="1,7"
@@ -3433,7 +3435,7 @@ const AgerRu = () => {
                 alt="Heineken 330ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/heineken-330ml?c=1649887097"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
@@ -3444,7 +3446,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item"
+          className={shopprofilemenulistitem}
           data-item-code="IT_000000000025"
           data-item-name="Kaiser 500ml"
           data-item-price="2,5"
@@ -3467,7 +3469,7 @@ const AgerRu = () => {
                 alt="Kaiser 500ml"
                 width={556}
                 height={392}
-                className="shop-profile-menu-list-item-img bg-white rounded lazyloaded"
+                className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:kaiser-500ml?c=1649869996"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
                 data-skeleton="skeleton-shape--item-img"
