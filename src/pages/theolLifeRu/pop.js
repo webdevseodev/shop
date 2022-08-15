@@ -48,11 +48,7 @@ const AgerRu = () => {
             </Link>
           </li>
    
-          <li className={navLinkItem}>
-            <Link to="https://www.google.com/maps/place/%CE%9C%CF%80%CE%B1%CE%BA%CE%B1%CE%BB%CE%BF%CE%BA%CE%B1%CF%86%CE%B5%CE%BD%CE%B5%CE%B9%CE%BF%CE%BD/@37.9550803,23.7129224,15z/data=!4m5!3m4!1s0x0:0xb8d6f2fb07d71245!8m2!3d37.9550752!4d23.7129292" target="_blank" className={navLinkText}>
-      pou eimaste
-            </Link>
-          </li>
+         
           <li className={navLinkItem}>
     <div>
       <a href="https://example.com" target="_blank" rel="noopener noreferrer">
